@@ -1,0 +1,1529 @@
+@media screen and (max-width:299px) { 
+    
+  /* ------ hero section ----- */
+
+  #hero{
+      flex-direction: column-reverse;
+      margin: 20px 0px;
+  }
+
+  #hero .hero-left{
+      width: 90%;
+      gap: 0.5rem;
+  }
+
+  #hero .hero-left h1{
+      font-size: 35px;
+  }
+
+  #hero .hero-left p{
+      font-size: 12px;
+  }
+
+  #hero .hero-left .google-play-badge{
+      width: 30%;
+  }
+
+  #hero .hero-right{
+      width: 90%;
+  }
+  
+  #hero .hero-right .phone-img{
+      width: 90%;
+      margin-top: 25%;
+  }
+
+  #hero .circle-1{
+      width: 20%;
+      margin-top: -150%;
+      margin-left: 78%;
+  }
+  
+  #hero .circle-2{
+      width: 8%;
+      margin-left: 70%;
+      margin-top: 95%;
+  }
+  
+  #hero .circle-3{
+      width: 18%;
+      margin-top: 20%;
+      margin-left: -100%;
+  }
+  
+  #hero .circle-4{
+      display: none;
+  }
+
+  /* ------ Quote section ----- */
+
+  #quote{
+      padding: 60px 20px;
+  }
+
+  #quote h1{
+      font-size: 40px;
+      text-align: center;
+  }
+
+  #quote .quote-line-1, #quote .quote-line-2, #quote .circle-1,#quote .circle-2,#quote .circle-3,#quote .circle-4{
+      display: none;
+  }
+
+  /* ------ about us section ----- */
+
+  #about-us{
+  flex-direction: column-reverse;
+  margin: 20px 0px;
+  gap: 1rem;
+  }
+    
+  #about-us .about-us-left{
+      width: 90%;
+      gap: 1rem;
+  }
+
+  #about-us .about-us-left p{
+      font-size: 12px;
+      line-height: 18px;
+  }
+
+  #about-us .about-us-right{
+      width: 90%;
+  }
+
+  #about-us .about-us-right .about-img{
+      width: 90%;
+      margin-top: 0%;
+  }
+
+  #about-us .circle-1{
+      width: 15%;
+      margin-left: -100%;
+      margin-top: 40%;
+    }
+    
+    #about-us .circle-2,#about-us .circle-3{
+      display: none;
+    }
+
+    /* -------- Approach section --------- */
+    
+    #approach .approach-box{
+      margin: 1rem;
+      gap: 1rem;
+    }
+    
+    #approach .approach-box h3{
+      font-size: 18px;
+    }
+
+    #approach .approach-box h1{
+      font-size: 35px;
+    }
+
+    #approach .approach-box p{
+      font-size: 12px;
+      margin-left: 0;
+      width: 100%;
+    }
+
+    #approach .approach-box .approach-arrow{
+      width: 30%;
+      margin-left: 25%;
+      transform: rotate(20deg);
+    }
+    
+    #approach .approach-box .doublequotes-1{
+      width: 10%;
+      transform: rotate(180deg);
+      margin-left: 0;
+    }
+    
+    #approach .approach-box .doublequotes-2{
+      width: 10%;
+      margin-left: 90%;
+    }
+
+    #approach .approach-line-1, #approach .approach-line-2, #approach .circle-1,#approach .circle-2, #approach .circle-3,#approach .circle-4{
+      display: none;
+    }
+
+
+    /* -------- Contact & Footer Section -------- */
+    
+    #contact-footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    /* -------- Contact form ------- */
+  #contact{
+      width: 100%;
+      text-transform: none;
+      gap: 1rem;
+      margin-top: 5%;
+      flex-direction: column;
+  }
+
+  #contact .contact-left{
+      width: 90%;
+  }
+
+  #contact .contact-left h1{
+      font-size: 25px;
+  }
+  
+  #contact .contact-left p{
+      font-size: 15px;
+  }
+
+  #contact .contact-left img{
+      width: 5%;
+      height: 5%;
+  }
+
+  #contact .contact-right{
+      width: 90%;
+  }
+    
+  #contact .contact-right .contact-form{
+      padding: 30px 30px;
+  }
+  
+  #contact-footer .circle-1{
+     display: none;
+    }
+    
+    #contact-footer .circle-2{
+      display: none;
+    }
+    
+    #contact-footer .circle-3{
+      display: none;
+    }
+
+  /* ------ Safety centre Page --------- */
+
+  #safety-centre{
+      margin-top: 30%;
+  }
+
+  /* ------ safety centre crousal------ */
+
+.splide{
+  height: auto;
+  width: 100%;
+}
+
+.splide__track{
+  width: 78%;
+}
+
+.splide__slide {
+  width: 200px;
+  height: 24rem !important;
+}
+
+
+.splide__slide img{
+  width: 200px;
+  height: 150px;
+  margin-top: -12%;
+}
+
+.splide__slide h4{
+  font-size: 16px;
+}
+
+.splide__slide p{
+  font-size: 12px;
+  padding: 15px 6px;
+}
+
+.splide__arrow{
+  width: 30px !important;
+  height: 80px !important;
+}
+
+#safety-centre .circle-1, #safety-centre .circle-2,#safety-centre .circle-3, #safety-centre .circle-4{
+  display: none;
+}
+
+/* ---- Policies and Guidelines Pages ----- */
+
+/* policies pages -  content area */
+
+#content{
+  margin-top: 70px !important;
+  margin: 0 30px;
+  width: 80%;
+}
+
+#content .banner-head {
+  padding: 40px 0;
+}
+
+
+#content .banner-hero-heading {
+  font-size: 25px;
+}
+
+#content .circle-1,#content .circle-2,#content .circle-3,#content .circle-4,#content .circle-5,#content .circle-6{
+ display: none;
+}
+
+}
+
+
+@media (min-width:300px) and (max-width:360px) { 
+    
+    /* ------ hero section ----- */
+
+    #hero{
+        flex-direction: column-reverse;
+        margin: 20px 0px;
+    }
+
+    #hero .hero-left{
+        width: 90%;
+        gap: 0.5rem;
+    }
+
+    #hero .hero-left h1{
+        font-size: 35px;
+    }
+
+    #hero .hero-left p{
+        font-size: 12px;
+    }
+
+    #hero .hero-left .google-play-badge{
+        width: 30%;
+    }
+
+    #hero .hero-right{
+        width: 90%;
+    }
+    
+    #hero .hero-right .phone-img{
+        width: 90%;
+        margin-top: 25%;
+    }
+
+    #hero .circle-1{
+        width: 20%;
+        margin-top: -150%;
+        margin-left: 78%;
+    }
+    
+    #hero .circle-2{
+        width: 8%;
+        margin-left: 70%;
+        margin-top: 95%;
+    }
+    
+    #hero .circle-3{
+        width: 18%;
+        margin-top: 20%;
+        margin-left: -100%;
+    }
+    
+    #hero .circle-4{
+        display: none;
+    }
+
+    /* ------ Quote section ----- */
+
+    #quote{
+        padding: 60px 20px;
+    }
+
+    #quote h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #quote .quote-line-1, #quote .quote-line-2, #quote .circle-1,#quote .circle-2,#quote .circle-3,#quote .circle-4{
+        display: none;
+    }
+
+    /* ------ about us section ----- */
+
+    #about-us{
+    flex-direction: column-reverse;
+    margin: 20px 0px;
+    gap: 1rem;
+    }
+      
+    #about-us .about-us-left{
+        width: 90%;
+        gap: 1rem;
+    }
+
+    #about-us .about-us-left p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    #about-us .about-us-right{
+        width: 90%;
+    }
+
+    #about-us .about-us-right .about-img{
+        width: 90%;
+        margin-top: 0%;
+    }
+
+    #about-us .circle-1{
+        width: 15%;
+        margin-left: -100%;
+        margin-top: 40%;
+      }
+      
+      #about-us .circle-2,#about-us .circle-3{
+        display: none;
+      }
+
+      /* -------- Approach section --------- */
+      
+      #approach .approach-box{
+        margin: 1rem;
+        gap: 1rem;
+      }
+      
+      #approach .approach-box h3{
+        font-size: 18px;
+      }
+
+      #approach .approach-box h1{
+        font-size: 35px;
+      }
+
+      #approach .approach-box p{
+        font-size: 12px;
+        margin-left: 0;
+        width: 100%;
+      }
+
+      #approach .approach-box .approach-arrow{
+        width: 30%;
+        margin-left: 25%;
+        transform: rotate(20deg);
+      }
+      
+      #approach .approach-box .doublequotes-1{
+        width: 10%;
+        transform: rotate(180deg);
+        margin-left: 0;
+      }
+      
+      #approach .approach-box .doublequotes-2{
+        width: 10%;
+        margin-left: 90%;
+      }
+
+      #approach .approach-line-1, #approach .approach-line-2, #approach .circle-1,#approach .circle-2, #approach .circle-3,#approach .circle-4{
+        display: none;
+      }
+
+
+      /* -------- Contact & Footer Section -------- */
+      
+      #contact-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+      }
+
+      /* -------- Contact form ------- */
+    #contact{
+        width: 100%;
+        text-transform: none;
+        gap: 1rem;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    #contact .contact-left{
+        width: 90%;
+    }
+
+    #contact .contact-left h1{
+        font-size: 25px;
+    }
+    
+    #contact .contact-left p{
+        font-size: 15px;
+    }
+
+    #contact .contact-left img{
+        width: 5%;
+        height: 5%;
+    }
+
+    #contact .contact-right{
+        width: 90%;
+    }
+      
+    #contact .contact-right .contact-form{
+        padding: 30px 30px;
+    }
+    
+    #contact-footer .circle-1{
+       display: none;
+      }
+      
+      #contact-footer .circle-2{
+        display: none;
+      }
+      
+      #contact-footer .circle-3{
+        display: none;
+      }
+
+    /* ------ Safety centre Page --------- */
+
+    #safety-centre{
+        margin-top: 30%;
+    }
+
+    /* ------ safety centre crousal------ */
+
+.splide{
+    height: auto;
+    width: 100%;
+  }
+  
+  .splide__track{
+    width: 78%;
+  }
+  
+  .splide__slide {
+    width: 200px;
+    height: 24rem !important;
+  }
+
+  
+  .splide__slide img{
+    width: 200px;
+    height: 150px;
+    margin-top: -12%;
+  }
+  
+  .splide__slide h4{
+    font-size: 16px;
+  }
+  
+  .splide__slide p{
+    font-size: 12px;
+    padding: 15px 6px;
+  }
+  
+  .splide__arrow{
+    width: 30px !important;
+    height: 80px !important;
+  }
+
+  #safety-centre .circle-1, #safety-centre .circle-2,#safety-centre .circle-3, #safety-centre .circle-4{
+    display: none;
+  }
+
+  /* ---- Policies and Guidelines Pages ----- */
+
+/* policies pages -  content area */
+
+#content{
+    margin-top: 70px !important;
+    margin: 0 30px;
+    width: 80%;
+  }
+  
+  #content .banner-head {
+    padding: 40px 0;
+  }
+
+  
+  #content .banner-hero-heading {
+    font-size: 25px;
+  }
+  
+  #content .circle-1,#content .circle-2,#content .circle-3,#content .circle-4,#content .circle-5,#content .circle-6{
+   display: none;
+  }
+  
+}
+
+@media (min-width:361px) and (max-width:480px) {
+
+    /* ------ hero section ----- */
+
+    #hero{
+        flex-direction: column-reverse;
+        margin: 20px 0px;
+    }
+
+    #hero .hero-left{
+        width: 90%;
+        gap: 0.5rem;
+    }
+
+    #hero .hero-left h1{
+        font-size: 35px;
+    }
+
+    #hero .hero-left p{
+        font-size: 12px;
+    }
+
+    #hero .hero-left .google-play-badge{
+        width: 30%;
+    }
+
+    #hero .hero-right{
+        width: 90%;
+    }
+    
+    #hero .hero-right .phone-img{
+        width: 75%;
+        margin-top: 25%;
+    }
+
+    #hero .circle-1{
+        width: 20%;
+        margin-top: -125%;
+        margin-left: 78%;
+    }
+    
+    #hero .circle-2{
+        width: 8%;
+        margin-left: 60%;
+        margin-top: 80%;
+    }
+    
+    #hero .circle-3{
+        width: 18%;
+        margin-top: -5%;
+        margin-left: -100%;
+    }
+    
+    #hero .circle-4{
+        display: none;
+    }
+
+    /* ------ Quote section ----- */
+
+    #quote{
+        padding: 60px 20px;
+    }
+
+    #quote h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #quote .quote-line-1, #quote .quote-line-2, #quote .circle-1,#quote .circle-2,#quote .circle-3,#quote .circle-4{
+        display: none;
+    }
+
+    /* ------ about us section ----- */
+
+    #about-us{
+    flex-direction: column-reverse;
+    margin: 20px 0px;
+    gap: 1rem;
+    }
+      
+    #about-us .about-us-left{
+        width: 90%;
+        gap: 1rem;
+    }
+
+    #about-us .about-us-left p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    #about-us .about-us-right{
+        width: 90%;
+    }
+
+    #about-us .about-us-right .about-img{
+        width: 90%;
+        margin-top: 0%;
+    }
+
+    #about-us .circle-1{
+        width: 15%;
+        margin-left: -100%;
+        margin-top: 40%;
+      }
+      
+      #about-us .circle-2,#about-us .circle-3{
+        display: none;
+      }
+
+      /* -------- Approach section --------- */
+      
+      #approach .approach-box{
+        margin: 1rem;
+        gap: 1rem;
+      }
+      
+      #approach .approach-box h3{
+        font-size: 18px;
+      }
+
+      #approach .approach-box h1{
+        font-size: 35px;
+      }
+
+      #approach .approach-box p{
+        font-size: 12px;
+        margin-left: 0;
+        width: 100%;
+      }
+
+      #approach .approach-box .approach-arrow{
+        width: 30%;
+        margin-left: 25%;
+        transform: rotate(20deg);
+      }
+      
+      #approach .approach-box .doublequotes-1{
+        width: 10%;
+        transform: rotate(180deg);
+        margin-left: 0;
+      }
+      
+      #approach .approach-box .doublequotes-2{
+        width: 10%;
+        margin-left: 90%;
+      }
+
+      #approach .approach-line-1, #approach .approach-line-2, #approach .circle-1,#approach .circle-2, #approach .circle-3,#approach .circle-4{
+        display: none;
+      }
+
+      /* -------- Contact & Footer Section -------- */
+      
+      #contact-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+      }
+
+      /* -------- Contact form ------- */
+    #contact{
+        width: 100%;
+        text-transform: none;
+        gap: 1rem;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    #contact .contact-left{
+        width: 90%;
+    }
+
+    #contact .contact-left h1{
+        font-size: 25px;
+    }
+    
+    #contact .contact-left p{
+        font-size: 15px;
+    }
+
+    #contact .contact-left img{
+        width: 5%;
+        height: 5%;
+    }
+
+    #contact .contact-right{
+        width: 90%;
+    }
+      
+    #contact .contact-right .contact-form{
+        padding: 30px 30px;
+    }
+    
+    #contact-footer .circle-1{
+        display: none;
+       }
+      
+      #contact-footer .circle-2{
+        display: none;
+      }
+      
+      #contact-footer .circle-3{
+        display: none;
+      }
+
+    /* ------ Safety centre Page --------- */
+
+    #safety-centre{
+        margin-top: 30%;
+    }
+
+    /* ------ safety centre crousal------ */
+
+.splide{
+    height: auto;
+    width: 100%;
+  }
+  
+  .splide__track{
+    width: 78%;
+  }
+  
+  .splide__slide {
+    width: 235px;
+    height: 24rem !important;
+  }
+
+  
+  .splide__slide img{
+    width: 235px;
+    height: 150px;
+    margin-top: -12%;
+  }
+  
+  .splide__slide h4{
+    font-size: 16px;
+  }
+  
+  .splide__slide p{
+    font-size: 12px;
+    padding: 15px 6px;
+  }
+  
+  .splide__arrow{
+    width: 30px !important;
+    height: 80px !important;
+  }
+
+  #safety-centre .circle-1, #safety-centre .circle-2,#safety-centre .circle-3, #safety-centre .circle-4{
+    display: none;
+  }
+
+  /* ---- Policies and Guidelines Pages ----- */
+
+/* policies pages -  content area */
+
+#content{
+    margin-top: 70px !important;
+    margin: 0 20px;
+    width: 90%;
+  }
+  
+  #content .banner-head {
+    padding: 40px 0;
+  }
+
+  
+  #content .banner-hero-heading {
+    font-size: 30px;
+  }
+  
+  #content .circle-1,#content .circle-2,#content .circle-3,#content .circle-4,#content .circle-5,#content .circle-6{
+   display: none;
+  }
+  
+}
+
+
+@media (min-width:481px) and (max-width:769px) {
+
+     /* ------ hero section ----- */
+
+     #hero{
+        flex-direction: column-reverse;
+        margin: 20px 0px;
+    }
+
+    #hero .hero-left{
+        width: 90%;
+        gap: 0.5rem;
+    }
+
+    #hero .hero-left h1{
+        font-size: 50px;
+    }
+
+    #hero .hero-left p{
+        font-size: 25px;
+    }
+
+    #hero .hero-left .google-play-badge{
+        width: 20%;
+    }
+
+    #hero .hero-right{
+        width: 90%;
+    }
+    
+    #hero .hero-right .phone-img{
+        width: 70%;
+        margin-top: 12%;
+    }
+
+    #hero .circle-1{
+        width: 20%;
+        margin-top: -110%;
+        margin-left: 78%;
+    }
+    
+    #hero .circle-2{
+        width: 5%;
+        margin-left: 2%;
+        margin-top: 70%;
+    }
+    
+    #hero .circle-3{
+        width: 18%;
+        margin-top: -5%;
+        margin-left: -100%;
+    }
+    
+    #hero .circle-4{
+        display: none;
+    }
+
+    /* ------ Quote section ----- */
+
+    #quote{
+        padding: 100px 50px;
+    }
+
+    #quote h1{
+        font-size: 80px;
+        text-align: center;        
+    }
+
+    #quote .quote-line-1, #quote .quote-line-2, #quote .circle-1,#quote .circle-2,#quote .circle-3,#quote .circle-4{
+        display: none;
+    }
+
+    /* ------ about us section ----- */
+
+    #about-us{
+    flex-direction: column-reverse;
+    margin: 80px 0px;
+    gap: 1rem;
+    }
+      
+    #about-us .about-us-left{
+        width: 90%;
+        gap: 1rem;
+    }
+
+    
+    #about-us .about-us-left h3{
+      font-size: 50px;
+    }
+
+    #about-us .about-us-left p{
+        font-size: 20px;
+    }
+
+    #about-us .about-us-right{
+        width: 90%;
+    }
+
+    #about-us .about-us-right .about-img{
+        width: 70%;
+        margin-top: 0%;
+    }
+
+    #about-us .circle-1{
+        width: 15%;
+        margin-left: -100%;
+        margin-top: 10%;
+      }
+      
+      #about-us .circle-2,#about-us .circle-3{
+        display: none;
+      }
+
+      /* -------- Approach section --------- */
+      
+      #approach .approach-box{
+        margin: 8rem 5rem;
+        gap: 1rem;
+      }
+      
+      #approach .approach-box h3{
+        font-size: 30px;
+      }
+
+      #approach .approach-box h1{
+        font-size: 80px;
+      }
+
+      #approach .approach-box p{
+        font-size: 25px;
+        margin-left:  0;
+        width: 100%;
+      }
+
+      #approach .approach-box .approach-arrow{
+        width: 20%;
+        margin-left: 25%;
+        transform: rotate(20deg);
+      }
+      
+      #approach .approach-box .doublequotes-1{
+        width: 6%;
+        transform: rotate(180deg);
+        margin-left: 0;
+      }
+      
+      #approach .approach-box .doublequotes-2{
+        width: 6%;
+        margin-left: 90%;
+      }
+
+      #approach .approach-line-1, #approach .approach-line-2, #approach .circle-1,#approach .circle-2, #approach .circle-3,#approach .circle-4{
+        display: none;
+      }
+
+      /* -------- Contact & Footer Section -------- */
+      
+      #contact-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+      }
+
+      /* -------- Contact form ------- */
+    #contact{
+        width: 100%;
+        text-transform: none;
+        gap: 1rem;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    #contact .contact-left{
+        width: 80%;
+    }
+
+    #contact .contact-left h1{
+        font-size: 25px;
+    }
+    
+    #contact .contact-left p{
+        font-size: 15px;
+    }
+
+    #contact .contact-left img{
+        width: 3%;
+    }
+
+    #contact .contact-right{
+        width: 60%;
+
+    }
+      
+    #contact .contact-right .contact-form{
+        padding: 30px 30px;
+    }
+    
+    #contact-footer .circle-1{
+        display: none;
+       }
+      
+      #contact-footer .circle-2{
+        display: none;
+      }
+      
+      #contact-footer .circle-3{
+        display: none;
+      }
+
+    /* ------ Safety centre Page --------- */
+
+    #safety-centre{
+        margin-top: 10%;
+    }
+
+    /* ------ safety centre crousal------ */
+
+.splide{
+    height: auto;
+    width: 100%;
+  }
+  
+  .splide__track{
+    width: 78%;
+  }
+  
+  .splide__slide {
+    width: 235px;
+    height: 24rem !important;
+  }
+
+  
+  .splide__slide img{
+    width: 235px;
+    height: 150px;
+    margin-top: -12%;
+  }
+  
+  .splide__slide h4{
+    font-size: 16px;
+  }
+  
+  .splide__slide p{
+    font-size: 12px;
+    padding: 15px 6px;
+  }
+  
+  .splide__arrow{
+    width: 30px !important;
+    height: 80px !important;
+  }
+
+  #safety-centre .circle-1, #safety-centre .circle-2,#safety-centre .circle-3, #safety-centre .circle-4{
+    display: none;
+  }
+
+  /* ---- Policies and Guidelines Pages ----- */
+
+/* policies pages -  content area */
+
+#content{
+    margin-top: 70px !important;
+    margin: 0px 30px;
+    width: 90%;
+
+  }
+  
+  #content .banner-head {
+    padding: 40px 0;
+  }
+
+  
+  #content .banner-hero-heading {
+    font-size: 30px;
+  }
+  
+  #content .circle-1,#content .circle-2,#content .circle-3,#content .circle-4,#content .circle-5,#content .circle-6{
+   display: none;
+  }
+
+}
+
+@media (min-width:770px) and (max-width:991px) {
+       /* ------ hero section ----- */
+
+       #hero{
+        flex-direction: column-reverse;
+        margin: 20px 0px;
+    }
+
+    #hero .hero-left{
+        width: 90%;
+        gap: 0.5rem;
+    }
+
+    #hero .hero-left h1{
+        font-size: 60px;
+    }
+
+    #hero .hero-left p{
+        font-size: 30px;
+    }
+
+    #hero .hero-left .google-play-badge{
+        width: 20%;
+    }
+
+    #hero .hero-right{
+        width: 90%;
+    }
+    
+    #hero .hero-right .phone-img{
+        width: 80%;
+        margin-top: 12%;
+    }
+
+    #hero .circle-1{
+        width: 20%;
+        margin-top: -110%;
+        margin-left: 78%;
+    }
+    
+    #hero .circle-2{
+        width: 5%;
+        margin-left: 2%;
+        margin-top: 70%;
+    }
+    
+    #hero .circle-3{
+        width: 18%;
+        margin-top: -5%;
+        margin-left: -100%;
+    }
+    
+    #hero .circle-4{
+        display: none;
+    }
+
+    /* ------ Quote section ----- */
+
+    #quote{
+        padding: 100px 50px;
+    }
+
+    #quote h1{
+        font-size: 80px;
+        text-align: center;        
+    }
+
+    #quote .quote-line-1, #quote .quote-line-2, #quote .circle-1,#quote .circle-2,#quote .circle-3,#quote .circle-4{
+        display: none;
+    }
+
+    /* ------ about us section ----- */
+
+    #about-us{
+    flex-direction: column-reverse;
+    margin: 80px 0px;
+    gap: 1rem;
+    }
+      
+    #about-us .about-us-left{
+        width: 90%;
+        gap: 1rem;
+    }
+
+    
+    #about-us .about-us-left h3{
+      font-size: 60px;
+    }
+
+    #about-us .about-us-left p{
+        font-size: 25px;
+    }
+
+    #about-us .about-us-right{
+        width: 90%;
+    }
+
+    #about-us .about-us-right .about-img{
+        width: 70%;
+        margin-top: 0%;
+    }
+
+    #about-us .circle-1{
+        width: 15%;
+        margin-left: -100%;
+        margin-top: 10%;
+      }
+      
+      #about-us .circle-2,#about-us .circle-3{
+        display: none;
+      }
+
+      /* -------- Approach section --------- */
+      
+      #approach .approach-box{
+        margin: 8rem 5rem;
+        gap: 1rem;
+      }
+      
+      #approach .approach-box h3{
+        font-size: 30px;
+      }
+
+      #approach .approach-box h1{
+        font-size: 80px;
+      }
+
+      #approach .approach-box p{
+        font-size: 25px;
+        margin-left:  0;
+        width: 100%;
+      }
+
+      #approach .approach-box .approach-arrow{
+        width: 20%;
+        margin-left: 25%;
+        transform: rotate(20deg);
+      }
+      
+      #approach .approach-box .doublequotes-1{
+        width: 6%;
+        transform: rotate(180deg);
+        margin-left: 0;
+      }
+      
+      #approach .approach-box .doublequotes-2{
+        width: 6%;
+        margin-left: 90%;
+      }
+
+      #approach .approach-line-1, #approach .approach-line-2, #approach .circle-1,#approach .circle-2, #approach .circle-3,#approach .circle-4{
+        display: none;
+      }
+
+      /* -------- Contact & Footer Section -------- */
+      
+      #contact-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+      }
+
+      /* -------- Contact form ------- */
+    #contact{
+        width: 100%;
+        text-transform: none;
+        gap: 1rem;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    #contact .contact-left{
+        width: 80%;
+    }
+
+    #contact .contact-left h1{
+        font-size: 25px;
+    }
+    
+    #contact .contact-left p{
+        font-size: 15px;
+    }
+
+    #contact .contact-left img{
+        width: 3%;
+    }
+
+    #contact .contact-right{
+        width: 60%;
+
+    }
+      
+    #contact .contact-right .contact-form{
+        padding: 30px 30px;
+    }
+    
+    #contact-footer .circle-1{
+        display: none;
+       }
+      
+      #contact-footer .circle-2{
+        display: none;
+      }
+      
+      #contact-footer .circle-3{
+        display: none;
+      }
+
+    /* ------ Safety centre Page --------- */
+
+    #safety-centre{
+        margin-top: 10%;
+    }
+
+    /* ------ safety centre crousal------ */
+
+.splide{
+    height: auto;
+    width: 100%;
+  }
+  
+  .splide__track{
+    width: 78%;
+  }
+  
+  .splide__slide {
+    width: 235px;
+    height: 24rem !important;
+  }
+
+  
+  .splide__slide img{
+    width: 235px;
+    height: 150px;
+    margin-top: -12%;
+  }
+  
+  .splide__slide h4{
+    font-size: 16px;
+  }
+  
+  .splide__slide p{
+    font-size: 12px;
+    padding: 15px 6px;
+  }
+  
+  .splide__arrow{
+    width: 30px !important;
+    height: 80px !important;
+  }
+
+  #safety-centre .circle-1, #safety-centre .circle-2,#safety-centre .circle-3, #safety-centre .circle-4{
+    display: none;
+  }
+
+  /* ---- Policies and Guidelines Pages ----- */
+
+/* policies pages -  content area */
+
+#content{
+    margin-top: 70px !important;
+    margin: 0px 30px;
+    width: 90%;
+
+  }
+  
+  #content .banner-head {
+    padding: 40px 0;
+  }
+
+  
+  #content .banner-hero-heading {
+    font-size: 30px;
+  }
+  
+  #content .circle-1,#content .circle-2,#content .circle-3,#content .circle-4,#content .circle-5,#content .circle-6{
+   display: none;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px){
+
+  /* ------- Navbar --------- */
+  #navbar-menu,
+  #navbar-toggle[aria-expanded="true"] #navbar-menu {
+    margin-left: 11%;
+  }
+
+  .navbar-links,
+  #navbar-toggle[aria-expanded="true"] #navbar-menu .navbar-links {
+      padding: 8px 6px;
+  }
+
+  /* ---- Hero section ---- */
+
+  #hero .hero-left{
+    gap: 1rem;
+  }
+
+  #hero .hero-left h1{
+    font-size: 50px;
+  }
+
+  /* ------ Quote section ----- */
+
+#quote h1{
+  font-size: 60px;
+}
+
+#quote .quote-line-2{
+  position: absolute;
+  width: 100%;
+  top: 155%;
+}
+
+#quote .circle-2{
+  position: absolute;
+  width: 4%;
+  margin-top: -35%;
+  margin-left: -80%;
+}
+
+/* ------ about us section ----- */
+
+#about-us .about-us-left{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 5rem;
+  gap: 2rem;
+}
+
+#about-us .about-us-left p{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#about-us .about-us-right .about-img{
+  margin-top: 0%;
+}
+
+/* -------- Approach section --------- */
+
+#approach .approach-box{
+  margin: 8rem 5rem 0 5rem;
+}
+
+#approach .approach-box h3{
+  font-size: 20px;
+}
+
+#approach .approach-box h1{
+  font-size: 40px;
+}
+
+#approach .approach-box p{
+  font-size: 16px;
+}
+
+#approach .approach-line-2{
+  position: absolute;
+  width: 100%;
+  top: 354%;
+}
+
+/* --------- contact us -------- */
+
+#contact-footer .circle-1,#contact-footer .circle-2, #contact-footer .circle-3{
+  display: none;
+}
+
+#contact{
+  gap: 1rem;
+}
+
+#contact .contact-left{
+  width: 40%;
+
+}
+
+#contact .contact-right{
+  width: 30%;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 1201px){
+
+/* --------- contact us -------- */
+
+#contact-footer .circle-1,#contact-footer .circle-2, #contact-footer .circle-3{
+  display: none;
+}
+
+}
