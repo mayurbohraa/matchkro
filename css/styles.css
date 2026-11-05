@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat+Alternates&family=Open+Sans&family=Work+Sans&display=swap');
 
+html {
+  box-sizing: border-box;
+}
+
 *,
 *:after,
 *:before {
@@ -170,9 +174,9 @@ a {
   width: 100%;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
 
-  html,body,section {
+  html,body,main > section {
     block-size: 100%;
   }
 
@@ -244,8 +248,8 @@ a {
   }
 
 
-  #contact-footer{
-    overflow-y: scroll;
+  #home-content {
+    block-size: 100%;
   }
   
 }
@@ -402,7 +406,7 @@ section:nth-of-type(odd) {
   align-items: center;
 }
 
-#quote h1{
+#quote h2{
   font-size: 75px;
   font-weight: 100;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -463,7 +467,7 @@ section:nth-of-type(odd) {
   gap: 2rem;
 }
 
-#about-us .about-us-left h3{
+#about-us .about-us-left h2{
   font-style: normal;
   font-weight: 700;
 }
@@ -516,7 +520,7 @@ section:nth-of-type(odd) {
   justify-content: center;
 }
 
-#approach .approach-box h3{
+#approach .approach-box h2{
   letter-spacing: 2px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -524,7 +528,7 @@ section:nth-of-type(odd) {
   font-size: 24px;
 }
 
-#approach .approach-box h1{
+#approach .approach-box h3{
   font-size: 60px;
   letter-spacing: 5px;
   font-family: 'Dancing Script', cursive;
@@ -643,7 +647,7 @@ section:nth-of-type(odd) {
   margin: 0 5rem;
 }
 
-#contact .contact-left h1{
+#contact .contact-left h2{
   font-weight: bolder;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
@@ -674,7 +678,7 @@ section:nth-of-type(odd) {
 }
 
 
-#contact .contact-right h6{
+#contact .contact-right h3{
   font-weight: bolder;
   text-transform: uppercase;
 }
@@ -699,7 +703,7 @@ section:nth-of-type(odd) {
   font-weight: 500;
 }
 
-#contact .contact-right .contact-form input[type=button]{
+#contact .contact-right .contact-form button[type=submit]{
   font-weight: 500;
   border-radius: 7px;
   background: #F6172A;

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="MatchKro | Love and Earnings Go on a Date!" />
 
   <!------- Title ------>
@@ -35,9 +35,8 @@
   <!------------ Navbar ------------>
   <header id="navbar">
     <nav class="navbar-container" id="nav">
-      <a href="/" class="home-link">
-        <img class="logo" src="../images/logo.png
-              " alt="" />
+      <a href="../index.html#hero" class="home-link">
+        <img class="logo" src="../images/logo.png" alt="MatchKro home" />
       </a>
       <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu"
         aria-expanded="false">
@@ -51,32 +50,31 @@
         
         <ul class="navbar-links">
           <li class="navbar-item">
-            <a class="navbar-link" href="/">Home</a>
+            <a class="navbar-link" href="../index.html#hero">Home</a>
           </li>
           <li class="navbar-item">
-            <h1 class="vertical-line"></h1>
+            <span class="vertical-line" aria-hidden="true"></span>
           </li>
           <li class="navbar-item">
-            <a class="navbar-link" href="/#about-us">About Us</a>
+            <a class="navbar-link" href="../index.html#about-us">About Us</a>
           </li>
           <li class="navbar-item">
-            <h1 class="vertical-line"></h1>
+            <span class="vertical-line" aria-hidden="true"></span>
           </li>
           <li class="navbar-item">
             <a class="navbar-link" href="../pages/safetycentre.html">Safety Centre</a>
           </li>
           <li class="navbar-item">
-            <h1 class="vertical-line"></h1>
+            <span class="vertical-line" aria-hidden="true"></span>
           </li>
           <li class="navbar-item">
-            <a class="navbar-link" href="/#contact-footer">Contact Us</a>
+            <a class="navbar-link" href="../index.html#contact-footer">Contact Us</a>
           </li>
           <li class="navbar-item mt-4">
             <a class="download-btn" href="https://play.google.com/store/apps/details?id=com.matchkro.dating">Download</a>
           </li>
           <li class="navbar-item">
-            <img class="white-logo" src="../images/white-logo.png
-              " alt="" />
+            <img class="white-logo" src="../images/white-logo.png" alt="" />
           </li>
         </ul>
       </div>
@@ -86,7 +84,7 @@
   <img src="../images/red-circle.png" alt="" class="circle" id="circle">
 
   <!-- -------- Safety Centre Section --------- -->
-  <div class="safety-centre" id="safety-centre">
+  <main class="safety-centre" id="safety-centre">
     
     <!-- ------------ circles ----- -->
 
@@ -98,15 +96,15 @@
 
     
     <div class="heading text-center">
-        <h2 class="text-uppercase">Safety Centre</h2>
+        <h1 class="text-uppercase">Safety Centre</h1>
         <p>Your well-being is our priority. Explore Matchkro's Safety Center for a worry-free dating experience.</p>
     </div>
 
     <!-- ----------- crousal ------------- -->
-     <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+     <div class="splide" role="group" aria-label="Dating safety resources">
             <div class="splide__track py-4">
               <ul class="splide__list">
-                <li class="splide__slide pt-4 mx-3" data-splide-interval="1000">
+                <li class="splide__slide" data-splide-interval="1000">
                 <a href="./datingsafetytips.html#Mental-Exhaustion">
                     <img src="../images/SC1.png" alt="" />
                     <h4 class="pt-4 text-center">Mental Exhaustion</h4>
@@ -117,9 +115,9 @@
                 </a>
                 </li>
 
-                <li class="splide__slide pt-4 mx-3" data-splide-interval="1000">
+                <li class="splide__slide" data-splide-interval="1000">
                 <a href="./datingsafetytips.html#rejection">
-                    <img src="../images/SC2.png"" alt="" />
+                    <img src="../images/SC2.png" alt="" />
                     <h4 class="pt-4">Feelings of Rejection</h4>
                     <p class="text-center fw-normal">
                       Navigate dating's low points, from ghosting to rejection, and emerge resilient, armed with newfound strength and self-assurance.
@@ -128,7 +126,7 @@
                 </a>
                 </li>
 
-                <li class="splide__slide pt-4 mx-3" data-splide-interval="1000">
+                <li class="splide__slide" data-splide-interval="1000">
                     <a href="./datingsafetytips.html#harmfull">
                         <img src="../images/SC3.png" alt="" />
                         <h4 class="pt-4">Harmful Behavior</h4>
@@ -139,7 +137,7 @@
                     </a>
                 </li>
 
-                <li class="splide__slide pt-4 mx-3" data-splide-interval="1000">
+                <li class="splide__slide" data-splide-interval="1000">
                     <a href="./datingsafetytips.html#irl">
                         <img src="../images/SC4.png" alt="" />
                         <h4 class="pt-4">MatchKro to IRL</h4>
@@ -158,43 +156,39 @@
             
             document.addEventListener("DOMContentLoaded", function () {
               var splide = new Splide(".splide", {
-                // start: -1,
                 perPage: 2,
                 perMove: 1,
-                autoplay: "pause",
+                gap: "24px",
                 breakpoints: {
-                  640: {
-                    perPage: 2,
+                  767: {
+                    perPage: 1,
+                    gap: "16px",
                   },
                 },
                 type: "loop",
-                // fixedWidth: "3rem",
-                // gap: "1rem",
-                autoWidth: true,
-                fixedHeight: "30rem",
               });
               splide.mount();
             });
           </script>
-  </div>
+  </main>
 
 
     <!-- ------- Footer ------------ -->
 
     <footer class="footer" id="footer">
-        <div class="row w-100">
+        <div class="row w-100 footer-columns">
             <div class="col-md-5">
-                <a href="/" class="home-link">
-                    <img class="logo" src="../images/logo.png" alt="">
+                <a href="../index.html#hero" class="home-link">
+                    <img class="logo" src="../images/logo.png" alt="MatchKro home">
                 </a>
                 <p class="mt-2">Find your perfect match with MatchKro!<br>
                   Beyond dating apps, we foster real connections. Break free from swiping fatigue. Prioritize authentic bonds over algorithms. Join us for genuine matchmaking magic.
                 </p>
   
                 <div class="d-flex flex-column flex-sm-row mt-1">
-                    <h5 class="" style="width: 38%;">Get the app!</h5>
+                    <h5>Get the app!</h5>
                     <a href="https://play.google.com/store/apps/details?id=com.matchkro.dating" class="download-btn">
-                        <img src="../images/google-play-badge.png" alt="" class="google-play-badge">
+                        <img src="../images/google-play-badge.png" alt="Get MatchKro on Google Play" class="google-play-badge">
                     </a>
                 </div>
             </div>
@@ -202,14 +196,14 @@
             <div class="col-6 col-md-2 mt-4">
                 <h5 class="mb-2">Company<span style="color: #F11826;">.</span></h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-1"><a href="/" class="nav-link p-0 text-body-emphasis">Home</a>
+                    <li class="nav-item mb-1"><a href="../index.html#hero" class="nav-link p-0 text-body-emphasis">Home</a>
                     </li>
-                    <li class="nav-item mb-1"><a href="/#about-us"
+                    <li class="nav-item mb-1"><a href="../index.html#about-us"
                             class="nav-link p-0 text-body-emphasis">About
                             Us</a></li>
                     <li class="nav-item mb-1"><a href="../pages/safetycentre.html"
                             class="nav-link p-0 text-body-emphasis">Safety Centre</a></li>
-                    <li class="nav-item mb-1"><a href="/#contact-footer"
+                    <li class="nav-item mb-1"><a href="../index.html#contact-footer"
                             class="nav-link p-0 text-body-emphasis">Contact
                             Us</a>
                     </li>
@@ -244,18 +238,18 @@
             <ul class="list-unstyled d-flex">
                 <li class=""><a class="link-body-emphasis social"
                         href="https://www.instagram.com/matchkro/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-                        target="_blank"><i class="bi bi-instagram"></i></a></li>
+                        target="_blank" rel="noopener noreferrer" aria-label="MatchKro on Instagram"><i class="bi bi-instagram"></i></a></li>
                 <li class="ms-3"><a class="link-body-emphasis social"
-                        href="https://www.facebook.com/profile.php?id=61550067653815" target="_blank"><i
+                        href="https://www.facebook.com/profile.php?id=61550067653815" target="_blank" rel="noopener noreferrer" aria-label="MatchKro on Facebook"><i
                             class="bi bi-facebook"></i></a></li>
                 <li class="ms-3"><a class="link-body-emphasis social"
-                        href="https://twitter.com/matchkro_?t=HQGCEcSvhihXzJ0CKaLo_w&s=08" target="_blank"><i
+                        href="https://twitter.com/matchkro_?t=HQGCEcSvhihXzJ0CKaLo_w&s=08" target="_blank" rel="noopener noreferrer" aria-label="MatchKro on Twitter"><i
                             class="bi bi-twitter"></i></a></li>
                 <li class="ms-3"><a class="link-body-emphasis social"
                         href="https://in.pinterest.com/matchkro/?invite_code=7511f930d67c428c9929611f8e038bca&sender=1144618198952480913"
-                        target="_blank"><i class="bi bi-pinterest"></i></a></li>
+                        target="_blank" rel="noopener noreferrer" aria-label="MatchKro on Pinterest"><i class="bi bi-pinterest"></i></a></li>
             </ul>
-            <p class="text-black">© 2023 MatchKro, Inc. All rights reserved. Design by <a href="https://progshee.com/" class="text-black text-decoration-underline" target="_blank">Progshee Technologies</a></p>
+            <p class="text-black">© 2024 MatchKro, Inc. All rights reserved.</p>
         </div>
   
       </footer>

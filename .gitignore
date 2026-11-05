@@ -1,0 +1,15 @@
+# Local tools and generated output
+node_modules/
+.cache/
+playwright-report/
+test-results/
+__pycache__/
+*.log
+
+# Local credentials and deployment state
+.env
+.env.*
+!.env.example
+.vercel/
+.DS_Store
+Thumbs.db
