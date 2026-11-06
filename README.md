@@ -8,7 +8,7 @@ MatchKro is a responsive marketing website for a dating app. It introduces the b
 
 ## Project Preview
 
-<img src="images/project-preview.webp" alt="MatchKro website screens, brand identity, responsive layouts, and presentation mockups" width="520">
+<img src="images/project-preview.webp" alt="MatchKro website screens, brand identity, responsive layouts, and presentation mockups" width="100%">
 
 Website and brand showcase, including presentation mockups.
 
@@ -21,11 +21,13 @@ Website and brand showcase, including presentation mockups.
 - A contact form with required fields, email validation, duplicate-submit prevention, loading feedback, and success/error states.
 - Shared footer navigation and direct links to the app listing and social profiles.
 
-## Live Website
+The contact form sends name, email, message, and timestamp fields to SheetDB.
 
-[https://matchkro.vercel.app/](https://matchkro.vercel.app/)
+## Live Website & Related Repository
 
-## Technology Stack
+https://matchkro.vercel.app/
+
+## Tech Stack
 
 | Layer | Implementation |
 | --- | --- |
@@ -38,7 +40,17 @@ Website and brand showcase, including presentation mockups.
 | Fonts | Google Fonts |
 | Hosting | Vercel |
 
-## Run Locally
+## Prerequisites
+
+A modern browser and Python 3 for the optional local server. CDN libraries, Google Fonts, and SheetDB require network access.
+
+## Installation & Setup
+
+1. Download or clone the repository and open its root folder.
+2. Keep the HTML files, `css/`, `js/`, `images/`, and `pages/` together.
+3. The contact form uses the SheetDB destination configured in `js/scripts.js`. Submission requires that service to be available.
+
+## Running Locally
 
 No dependency installation or build step is required. From the repository root, run a static server with Python 3:
 
@@ -46,9 +58,11 @@ No dependency installation or build step is required. From the repository root, 
 python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open [http://127.0.0.1:8000/index.html](http://127.0.0.1:8000/index.html).
+Open http://127.0.0.1:8000/index.html.
 
 Any equivalent static web server can also serve the site. A network connection is needed for CDN libraries, fonts, and the contact service.
+
+Serve the repository root with `index.html` as the entry point. The checked-in files are the deployable output. No dependency installation or build step is required. Project-relative navigation supports deployment at the domain root or within a subdirectory.
 
 ## Project Structure
 
@@ -73,11 +87,3 @@ Any equivalent static web server can also serve the site. A network connection i
 ```
 
 `images/` also contains the website's logos, app imagery, download badge, and decorative assets.
-
-## Contact Integration
-
-The form sends name, email, message, and timestamp fields to the configured SheetDB service. Submission requires that external service to be available. There is no custom backend, authentication system, or environment-variable configuration in this repository.
-
-## Deployment
-
-Serve the repository root as a static site, with `index.html` as the entry point. No build command is needed. Project-relative navigation supports deployment at the domain root or within a subdirectory.
